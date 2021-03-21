@@ -6,5 +6,5 @@ layout: homepage
 title: About Me
 ---
 
-###  PhD at UNICOG, Neurospin (CEA/INSERM)
+###  PhD candidate at UNICOG, Neurospin (CEA/INSERM)
 #### Under supervision by Ghislaine Deahene-Lambertz
