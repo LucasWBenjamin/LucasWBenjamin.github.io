@@ -21,5 +21,5 @@ To explore these questions, I rely on :
 After studying mathematics, physics and computer science in prep school, I joined **CentraleSupelec** where I completed an engineering degree with emphasis on **signal processing and bio-engineering**. In parallel to my last engineering year, I completed a Master degree in **computational biology** at Université Paris-Saclay. 
 #### Previous research experiences
 During those studies I had the opportunity to take a gap year and work as a research intern : 
-At **University College London** with *Maria Chait* on sound salience its relation with pupil dynamics ;
-At the **McGill Montreal Neurological Institute** with *Robert Zatorre, Philippe Albouy and Benjamin Morillon* on speech and music processing with fMRI data. 
+- At **University College London** with *Maria Chait* on sound salience its relation with pupil dynamics ;
+- At the **McGill Montreal Neurological Institute** with *Robert Zatorre, Philippe Albouy and Benjamin Morillon* on speech and music processing with fMRI data. 
