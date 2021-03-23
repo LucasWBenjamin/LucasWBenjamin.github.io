@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Talks
+title: Talks & Seminars
 permalink: /talks/
 --- 
