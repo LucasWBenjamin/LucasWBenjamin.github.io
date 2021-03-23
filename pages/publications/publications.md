@@ -18,4 +18,4 @@ Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre
 
 **Rapid ocular responses are modulated by bottom-up-driven auditory salience**  
 Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait  
-*Journal of Neuroscience* [Article](https://lucaswbenjamin.github.io/publications/Zhao et al.pdf)
+*Journal of Neuroscience* [Article](https://lucaswbenjamin.github.io/publications/Zhao_et_al_jNeuro.pdf)
