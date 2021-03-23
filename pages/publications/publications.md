@@ -11,11 +11,11 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 **Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody**  
 Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre  
-*Science*
+*Science* [Article](https://www.zlab.mcgill.ca/publications/docs/albouy_et_al_science_2020.pdf)
 
 
 ### 2019
 
 **Rapid ocular responses are modulated by bottom-up-driven auditory salience**  
 Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait  
-*Journal of Neuroscience*
+*Journal of Neuroscience* [Article](https://www.zlab.mcgill.ca/publications/docs/albouy_et_al_science_2020.pdf)
