@@ -5,7 +5,6 @@
 layout: homepage
 title: About Me
 ---
-<div style="text-align: right">
 ###  PhD candidate at UNICOG, Neurospin (CEA/INSERM)
 
 ## Research
@@ -23,6 +22,3 @@ After studying mathematics, physics and computer science in prep school, I joine
 During those studies I had the opportunity to take a gap year and work as a research intern : 
 - At **University College London** with *Maria Chait* on sound salience its relation with pupil dynamics ;
 - At the **McGill Montreal Neurological Institute** with *Robert Zatorre, Philippe Albouy and Benjamin Morillon* on speech and music processing with fMRI data. 
-
-
-</div>
