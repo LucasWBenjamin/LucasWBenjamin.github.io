@@ -34,8 +34,8 @@ plugins:
 
 header_pages:
   - pages/publications/publications.md
-#  - pages/talks/presentations.md
-#  - pages/software/softwares.md
+  - pages/talks & seminars/presentations.md
+  - pages/Participate in Science/participate.md
 #  - pages/blog/home.md
 
 # Exclude from processing.
