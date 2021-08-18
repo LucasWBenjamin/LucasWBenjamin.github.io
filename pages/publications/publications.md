@@ -6,6 +6,10 @@ permalink: /publications/
 
 Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=fr)
 
+## 2021
+[**Remarks on the analysis of steady-state responses: Spurious artifacts introduced by overlapping epochs**](https://lucaswbenjamin.github.io/pages/publications/Benjamin_et_al_Cortex2021.pdf)  
+<font size="2"> Lucas Benjamin, Ghislaine Dehaene-Lambertz, Ana Fló </font>  
+*Cortex*
 
 ## 2020
 
