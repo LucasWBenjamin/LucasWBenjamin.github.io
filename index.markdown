@@ -13,7 +13,7 @@ I am PhD candidate under the supervision of **Ghislaine Dehaene-Lambertz** at Ne
 To explore these questions, I rely on :
 - **experimental psychology** : behavioral measures of our cognitive capacities ;
 - **neuroimaging** tools such as EEG to measure of the brain activity during cognitive tasks ;
-- **modelling** : use of mathematical of deep-learning models to represent and understand human's ability.
+- **modelling** : use of mathematical and deep-learning models to represent and understand human's ability.
 
 
 ## Background
