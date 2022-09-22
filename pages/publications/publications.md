@@ -9,15 +9,15 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 ## 2022
 [**Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates**](https://lucaswbenjamin.github.io/pages/publications/Benjamin-2022-DevelopmentalScience.pdf)  
 <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>  
-*Cortex*
+*Developmental Science*
 
 [**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf)  
 <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font>  
-*Cortex*
+*Scientific Reports*
 
 [**Automated Pipeline for Infants Continuous EEG (APICE): a flexible pipeline for developmental cognitive studies**](https://lucaswbenjamin.github.io/pages/publications/APICE.pdf)  
 <font size="2"> Ana Fló, Guilia Gennari, Lucas Benjamin, Ghislaine Dehaene-Lambertz </font>  
-*Cortex*
+*Developmental Cognitive Neuroscience*
 
 ## 2021
 
