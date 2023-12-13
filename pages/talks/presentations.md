@@ -3,7 +3,7 @@ layout: page
 title: Talks & Seminars
 permalink: /talks/
 --- 
-- Poster at **[Society for Neurobiology of Language conference (SNL) 2023]((https://www.neurolang.org/2023/presentation/?id=1415)) ** Marseille, France *2023*
+- Poster at [**Society for Neurobiology of Language conference (SNL)**]((https://www.neurolang.org/2023/presentation/?id=1415)) Marseille, France *2023*
 - Speaker at **French Baby lab conference (GDR) 2022** Paris, France *2022*
 - Invitied Speaker at [**The Fyssen Colloquium**]((https://www.fondationfyssen.fr/fr/actions/colloques/)) Saint-Germain-en-Laye, France *2022*
 - Speaker at [**TEX 2022**](https://indico.sissa.it/event/59/) Sissa, Trieste *2022*
