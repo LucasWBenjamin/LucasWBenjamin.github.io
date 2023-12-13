@@ -33,8 +33,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 ## 2021
 
-[**Remarks on the analysis of steady-state responses: Spurious artifacts introduced by overlapping epochs**](https://lucaswbenjamin.github.io/pages/publications/Benjamin_et_al_Cortex2021.pdf)  
-<font size="2"> Lucas Benjamin, Ghislaine Dehaene-Lambertz, Ana Fló </font>  
+[**Remarks on the analysis of steady-state responses: Spurious artifacts introduced by overlapping epochs**](https://lucaswbenjamin.github.io/pages/publications/Benjamin_et_al_Cortex2021.pdf) <font size="2"> Lucas Benjamin, Ghislaine Dehaene-Lambertz, Ana Fló </font>    
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Cortex.jpeg" height="50"> *Cortex*
 
 
@@ -42,8 +42,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 ## 2020
 
-[**Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody**](https://lucaswbenjamin.github.io/pages/publications/albouy_et_al_science_2020.pdf)  
-<font size="2"> Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre </font>  
+[**Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody**](https://lucaswbenjamin.github.io/pages/publications/albouy_et_al_science_2020.pdf)  <font size="2"> Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre </font>  
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Science.jpg" height="35">
 
 
@@ -51,8 +51,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 ## 2019
 
-[**Rapid ocular responses are modulated by bottom-up-driven auditory salience**](https://lucaswbenjamin.github.io/pages/publications/Zhao_et_al_JNeuro.pdf)  
-<font size="2"> Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait </font>   
+[**Rapid ocular responses are modulated by bottom-up-driven auditory salience**](https://lucaswbenjamin.github.io/pages/publications/Zhao_et_al_JNeuro.pdf)  <font size="2"> Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait </font>   
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *The Journal of Neuroscience*
 
 
