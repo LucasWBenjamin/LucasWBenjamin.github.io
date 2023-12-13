@@ -9,8 +9,8 @@ title: About Me
 
 ## Research
 
-<div style="text-align: justify"> I am PhD candidate under the supervision of **Ghislaine Dehaene-Lambertz** at Neurospin. I am interested on how the human brain compresses and represents the information in sound sequences with a focus on the amazing capacities of babies to learn their mother tongue.
-To explore these questions, I rely on : </div>
+I did my PhD under the supervision of **Ghislaine Dehaene-Lambertz** at Neurospin. I am interested on how the human brain compresses and represents the information in sound sequences with a focus on the amazing capacities of babies to learn their mother tongue.
+To explore these questions, I rely on :
 - **experimental psychology** : behavioral measures of our cognitive capacities ;
 - **neuroimaging** tools such as neonatal EEG or MEG to measure the brain activity during cognitive tasks ;
 - **modelling** : use of mathematical and deep-learning models to represent and understand human's ability.
