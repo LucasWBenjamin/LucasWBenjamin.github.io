@@ -12,7 +12,7 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 [**Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates**](https://lucaswbenjamin.github.io/pages/publications/Benjamin-2022-DevelopmentalScience.pdf) <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>  
 
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30"> *Developmental Science*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30">
 
 
 ## 2022
@@ -36,11 +36,11 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 [**Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody**](https://lucaswbenjamin.github.io/pages/publications/albouy_et_al_science_2020.pdf)  
 <font size="2"> Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre </font>  
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_Science.jpg" height="35"> *Science*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_Science.jpg" height="35">
 
 
 ## 2019
 
 [**Rapid ocular responses are modulated by bottom-up-driven auditory salience**](https://lucaswbenjamin.github.io/pages/publications/Zhao_et_al_JNeuro.pdf)  
 <font size="2"> Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait </font>   
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *Journal of Neuroscience*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *The Journal of Neuroscience*
