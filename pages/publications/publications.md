@@ -17,9 +17,6 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <br>
 <br>
-<br>
-<br>
-
 
 ## 2022
 [**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf) <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font> 
@@ -30,8 +27,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevCogNeur.jpeg" height="50"> *Developmental Cognitive Neuroscience*
 
-
-
+<br>
+<br>
 
 ## 2021
 
@@ -39,8 +36,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Cortex.jpeg" height="50"> *Cortex*
 
-
-
+<br>
+<br>
 
 ## 2020
 
@@ -48,8 +45,8 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Science.jpg" height="35">
 
-
-
+<br>
+<br>
 
 ## 2019
 
