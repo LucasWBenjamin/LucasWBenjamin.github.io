@@ -6,7 +6,6 @@ permalink: /publications/
 
 Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=fr)
  
-<div style="text-align: justify">
 ## 2023  
 [**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**](https://elifesciences.org/articles/86430#abstract) <font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font>
 
@@ -16,7 +15,10 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30">
 
-
+\n
+\n
+\n
+\n
 
 
 ## 2022
@@ -56,6 +58,5 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *The Journal of Neuroscience*
 
 
-</div>
 
 
