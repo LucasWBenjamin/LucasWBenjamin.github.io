@@ -40,4 +40,4 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 [**Rapid ocular responses are modulated by bottom-up-driven auditory salience**](https://lucaswbenjamin.github.io/pages/publications/Zhao_et_al_JNeuro.pdf)  
 <font size="2"> Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait </font>   
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25> *Journal of Neuroscience*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *Journal of Neuroscience*
