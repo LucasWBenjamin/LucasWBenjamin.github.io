@@ -14,6 +14,7 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30"> *Developmental Science*
 
+
 ## 2022
 [**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf)  
  <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font> 
@@ -23,11 +24,13 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 <font size="2"> Ana Fló, Guilia Gennari, Lucas Benjamin, Ghislaine Dehaene-Lambertz </font>  
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevCogNeur.jpeg" height="50"> *Developmental Cognitive Neuroscience*
 
+
 ## 2021
 
 [**Remarks on the analysis of steady-state responses: Spurious artifacts introduced by overlapping epochs**](https://lucaswbenjamin.github.io/pages/publications/Benjamin_et_al_Cortex2021.pdf)  
 <font size="2"> Lucas Benjamin, Ghislaine Dehaene-Lambertz, Ana Fló </font>  
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Cortex.jpeg" height="50"> *Cortex*
+
 
 ## 2020
 
