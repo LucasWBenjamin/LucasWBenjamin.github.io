@@ -15,10 +15,10 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30">
 
-\n
-\n
-\n
-\n
+<br>
+<br>
+<br>
+<br>
 
 
 ## 2022
