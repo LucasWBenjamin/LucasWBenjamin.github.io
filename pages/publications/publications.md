@@ -8,7 +8,7 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 ## 2023
 [**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**](https://elifesciences.org/articles/86430#abstract)  
 <font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font>  
-*eLife* <img src="(https://lucaswbenjamin.github.io/pages/publications/Log_elife.png)"/>
+*eLife* <img src="(https://lucaswbenjamin.github.io/pages/publications/Log_elife.png)" alt="elife"/>
 
 [**Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates**](https://lucaswbenjamin.github.io/pages/publications/Benjamin-2022-DevelopmentalScience.pdf)  
 <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>  
