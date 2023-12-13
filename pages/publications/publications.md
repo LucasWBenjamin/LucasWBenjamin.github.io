@@ -5,8 +5,10 @@ permalink: /publications/
 --- 
 
 Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=fr)
-## 2023
-[**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**](https://elifesciences.org/articles/86430#abstract) <font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font>
+<div style="text-align: justify"> 
+
+## 2023  
+[**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**](https://elifesciences.org/articles/86430#abstract) <font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font></div>
 
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_elife.png" height="50"> *eLife* 
 
@@ -52,3 +54,6 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 [**Rapid ocular responses are modulated by bottom-up-driven auditory salience**](https://lucaswbenjamin.github.io/pages/publications/Zhao_et_al_JNeuro.pdf)  
 <font size="2"> Sijia Zhao, Nga Wai Yum, Lucas Benjamin, Elia Benhamou, Makoto Yoneya, Shigeto Furukawa, Fred Dick, Malcolm Slaney, Maria Chait </font>   
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="25"> *The Journal of Neuroscience*
+
+
+</div>
