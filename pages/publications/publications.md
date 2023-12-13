@@ -5,12 +5,16 @@ permalink: /publications/
 --- 
 
 Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=fr)
+## 2023
+[**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**]((https://elifesciences.org/articles/86430#abstract))  
+<font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font>  
+*eLife*
 
-## 2022
 [**Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates**](https://lucaswbenjamin.github.io/pages/publications/Benjamin-2022-DevelopmentalScience.pdf)  
 <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>  
 *Developmental Science*
 
+## 2022
 [**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf)  
 <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font>  
 *Scientific Reports*
