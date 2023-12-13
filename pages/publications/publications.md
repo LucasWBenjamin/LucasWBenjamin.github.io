@@ -15,14 +15,18 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="30">
 
 
+
+
 ## 2022
-[**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf)  
- <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font> 
+[**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf) <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font> 
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_SciRep.jpg" height="50"> *Scientific Reports*
 
-[**Automated Pipeline for Infants Continuous EEG (APICE): a flexible pipeline for developmental cognitive studies**](https://lucaswbenjamin.github.io/pages/publications/APICE.pdf)  
-<font size="2"> Ana Fló, Guilia Gennari, Lucas Benjamin, Ghislaine Dehaene-Lambertz </font>  
+[**Automated Pipeline for Infants Continuous EEG (APICE): a flexible pipeline for developmental cognitive studies**](https://lucaswbenjamin.github.io/pages/publications/APICE.pdf) <font size="2"> Ana Fló, Guilia Gennari, Lucas Benjamin, Ghislaine Dehaene-Lambertz </font>  
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevCogNeur.jpeg" height="50"> *Developmental Cognitive Neuroscience*
+
+
 
 
 ## 2021
@@ -32,11 +36,15 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Cortex.jpeg" height="50"> *Cortex*
 
 
+
+
 ## 2020
 
 [**Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody**](https://lucaswbenjamin.github.io/pages/publications/albouy_et_al_science_2020.pdf)  
 <font size="2"> Philippe Albouy, Lucas Benjamin, Benjamin Morillon, Robert J Zatorre </font>  
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_Science.jpg" height="35">
+
+
 
 
 ## 2019
