@@ -8,20 +8,20 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 ## 2023
 [**Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure**](https://elifesciences.org/articles/86430#abstract)  
 <font size="2"> Lucas Benjamin, Ana Fló, F Al Roumi, Ghislaine Dehane‐Lambertz</font>  
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_elife.png" height="70"> *eLife* 
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_elife.png" height="50"> *eLife* 
 
 [**Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates**](https://lucaswbenjamin.github.io/pages/publications/Benjamin-2022-DevelopmentalScience.pdf)  
 <font size="2"> Lucas Benjamin, Ana Fló, M Palu, Shruti Naik, Lucia Melloni, Ghislaine Dehane‐Lambertz</font>  
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="70"> *Developmental Science*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevSci.pdf"  height="50"> *Developmental Science*
 
 ## 2022
 [**Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words**](https://lucaswbenjamin.github.io/pages/publications/Flo2022ScientificReports.pdf)  
 <font size="2"> Ana Fló, Lucas Benjamin, Marie Palu, Ghislaine Dehaene-Lambertz </font>  
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_SciRep.jpg" height="70">*Scientific Reports*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_SciRep.jpg" height="50">*Scientific Reports*
 
 [**Automated Pipeline for Infants Continuous EEG (APICE): a flexible pipeline for developmental cognitive studies**](https://lucaswbenjamin.github.io/pages/publications/APICE.pdf)  
 <font size="2"> Ana Fló, Guilia Gennari, Lucas Benjamin, Ghislaine Dehaene-Lambertz </font>  
-<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevCogNeur.jpeg" height="70">*Developmental Cognitive Neuroscience*
+<img src="https://lucaswbenjamin.github.io/pages/publications/Log_DevCogNeur.jpeg" height="50">*Developmental Cognitive Neuroscience*
 
 ## 2021
 
