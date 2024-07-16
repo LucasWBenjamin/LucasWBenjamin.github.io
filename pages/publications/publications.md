@@ -8,6 +8,7 @@ Link to my [Google Scholar page](https://scholar.google.fr/citations?user=cOj0n3
 
 ## 2024
 [**Long-Horizon Associative Learning Explains Human Sensitivity to Statistical and Network Structures in Auditory Sequences**]([https://elifesciences.org/articles/86430#abstract](https://lucaswbenjamin.github.io/pages/publications/e1369232024.full.pdf)) <font size="2"> Lucas Benjamin, Mathias Sablé-Meyer, Ana Fló, Ghislaine Dehane‐Lambertz, Fosca Al Roumi</font>
+
 <img src="https://lucaswbenjamin.github.io/pages/publications/Log_JNeuro.png" height="15"> *The Journal of Neuroscience*
 
 
