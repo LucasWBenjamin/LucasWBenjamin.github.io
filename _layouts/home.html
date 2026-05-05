@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero__photo">
+    <img src="{{ site.picture | relative_url }}" alt="Portrait of {{ site.title }}" loading="eager">
+  </div>
+  <div class="hero__intro">
+    <h1 class="hero__name">{{ site.title }}</h1>
+    <p class="hero__role">{{ site.tagline }}</p>
+    <div class="hero__bio">
+      {{ content }}
+    </div>
+    {%- include social.html -%}
+  </div>
+</section>
+
+{%- if site.data.news and site.data.news.size > 0 -%}
+<section class="news">
+  <h2 class="section-heading">News</h2>
+  <ul class="news-list">
+    {%- for item in site.data.news -%}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
+
+<section class="bluesky-pin" id="bluesky-pin-section" hidden>
+  <h2 class="section-heading">Pinned on Bluesky</h2>
+  <div id="bluesky-pin-container" class="bluesky-pin__embed"></div>
+</section>
+<script>
+(function(){
+  var handle = 'lucaswbenjamin.bsky.social';
+  var section = document.getElementById('bluesky-pin-section');
+  var container = document.getElementById('bluesky-pin-container');
+  if (!section || !container) return;
+  var api = 'https://public.api.bsky.app/xrpc/';
+
+  fetch(api + 'app.bsky.actor.getProfile?actor=' + encodeURIComponent(handle))
+    .then(function(r){ return r.json(); })
+    .then(function(profile){
+      if (!profile || !profile.pinnedPost) throw new Error('no pinned post');
+      var uri = profile.pinnedPost.uri;
+      var cid = profile.pinnedPost.cid;
+      return fetch(api + 'app.bsky.feed.getPosts?uris=' + encodeURIComponent(uri))
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          var post = data && data.posts && data.posts[0];
+          if (!post) throw new Error('post not found');
+          var text = post.record.text || '';
+          var lang = (post.record.langs && post.record.langs[0]) || 'en';
+          var rkey = uri.split('/').pop();
+          var postUrl = 'https://bsky.app/profile/' + handle + '/post/' + rkey;
+
+          var bq = document.createElement('blockquote');
+          bq.className = 'bluesky-embed';
+          bq.setAttribute('data-bluesky-uri', uri);
+          bq.setAttribute('data-bluesky-cid', cid);
+          bq.setAttribute('data-bluesky-embed-color-mode', 'system');
+          var p = document.createElement('p');
+          p.lang = lang;
+          p.textContent = text;
+          p.appendChild(document.createElement('br'));
+          p.appendChild(document.createElement('br'));
+          var a = document.createElement('a');
+          a.href = postUrl + '?ref_src=embed';
+          a.textContent = '[View on Bluesky]';
+          p.appendChild(a);
+          bq.appendChild(p);
+          container.appendChild(bq);
+          section.hidden = false;
+
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://embed.bsky.app/static/embed.js';
+          s.charset = 'utf-8';
+          document.body.appendChild(s);
+        });
+    })
+    .catch(function(err){
+      console.warn('Bluesky pinned post: ' + err.message);
+    });
+})();
+</script>

@@ -1,0 +1,242 @@
+# Phases (kept for potential future grouping; not currently used by the page,
+# which sorts globally by year). Logos under /pages/publications/logo/,
+# PDFs under /pages/publications/pdf/.
+# Use `link:` for external URL when no local PDF.
+
+# ---------- POSTDOC ----------
+- phase: postdoc
+  year: 2026
+  title: "Sensory integration, temporal predictions and rule discovery reflect interdependent inference processes in humans"
+  authors:
+    - L. Benjamin
+    - B. Morillon*
+    - V. Wyart*
+  venue: "PNAS"
+  logo: logo_PNAS.png
+  pdf: pages/publications/pdf/Benjamin_et_al_PNAS2026.pdf
+  featured: true
+
+- phase: postdoc
+  year: 2026
+  title: "A proposal for unifying statistical learning at different scales: Long-Horizon Associative Learning"
+  authors:
+    - L. Benjamin
+    - A. Fló
+    - F. Al Roumi
+    - G. Dehaene-Lambertz
+  venue: "bioRxiv"
+  tag: preprint
+  link: "https://www.biorxiv.org/content/10.1101/2025.03.12.642610v3"
+
+# ---------- PHD ----------
+- phase: phd
+  year: 2026
+  title: "A geometric shape regularity in the human brain"
+  authors:
+    - M. Sablé-Meyer
+    - L. Benjamin
+    - C. P. Watkins
+    - C. He
+    - M. Pajot
+    - T. Morfoisse
+    - F. Al Roumi
+    - S. Dehaene
+  venue: "eLife"
+  logo: Log_elife.png
+  pdf: pages/publications/pdf/Sable-Meyer_et_al_eLife2026.pdf
+
+- phase: phd
+  year: 2025
+  title: "From syllables to words: EEG evidence of different age trajectories in speech tracking and statistical learning in infants at high and low likelihood for autism"
+  authors:
+    - M. Godel
+    - A. Fló
+    - L. Benjamin
+    - G. Dehaene-Lambertz
+    - M. Schaer
+  venue: "eLife"
+  logo: Log_elife.png
+  pdf: pages/publications/pdf/Godel_et_al_eLife2025.pdf
+
+- phase: phd
+  year: 2025
+  title: "Statistical learning beyond words in human neonates"
+  authors:
+    - A. Fló
+    - L. Benjamin
+    - M. Palu
+    - G. Dehaene-Lambertz
+  venue: "eLife"
+  logo: Log_elife.png
+  pdf: pages/publications/pdf/Flo_et_al_eLife2025.pdf
+
+- phase: phd
+  year: 2024
+  title: "The role of conscious attention in auditory statistical learning: Evidence from patients with impaired consciousness"
+  authors:
+    - L. Benjamin
+    - D. Zang
+    - A. Fló
+    - Z. Qi
+    - L. Wang
+    - X. Wu
+    - P. Gui
+    - G. Dehaene-Lambertz
+  venue: "iScience"
+  logo: logo_iscience.png
+  pdf: pages/publications/pdf/Benjamin_et_al_iScience2024.pdf
+
+- phase: phd
+  year: 2024
+  title: "Long-horizon associative learning explains human sensitivity to statistical and network structures in auditory sequences"
+  authors:
+    - L. Benjamin
+    - M. Sablé-Meyer
+    - A. Fló
+    - G. Dehaene-Lambertz*
+    - F. Al Roumi*
+  venue: "The Journal of Neuroscience"
+  logo: Log_JNeuro.png
+  pdf: pages/publications/pdf/e1369232024.full.pdf
+  featured: true
+
+- phase: phd
+  year: 2023
+  title: "Humans parsimoniously represent auditory sequences by pruning and completing the underlying network structure"
+  authors:
+    - L. Benjamin
+    - A. Fló
+    - F. Al Roumi
+    - G. Dehaene-Lambertz
+  venue: "eLife"
+  logo: Log_elife.png
+  pdf: pages/publications/pdf/Benjamin_et_al_eLife2023.pdf
+  featured: true
+
+- phase: phd
+  year: 2023
+  title: "Tracking transitional probabilities and segmenting auditory sequences are dissociable processes in adults and neonates"
+  authors:
+    - L. Benjamin
+    - A. Fló
+    - M. Palu
+    - S. Naik
+    - L. Melloni
+    - G. Dehaene-Lambertz
+  venue: "Developmental Science"
+  logo: Log_DevSci.jpg
+  pdf: pages/publications/pdf/Benjamin-2022-DevelopmentalScience.pdf
+  featured: true
+
+- phase: phd
+  year: 2022
+  title: "Automated Pipeline for Infants Continuous EEG (APICE): a flexible pipeline for developmental cognitive studies"
+  authors:
+    - A. Fló
+    - G. Gennari
+    - L. Benjamin
+    - G. Dehaene-Lambertz
+  venue: "Developmental Cognitive Neuroscience"
+  logo: Log_DevCogNeur.jpeg
+  pdf: pages/publications/pdf/APICE.pdf
+
+- phase: phd
+  year: 2022
+  title: "Sleeping neonates track transitional probabilities in speech but only retain the first syllable of words"
+  authors:
+    - A. Fló
+    - L. Benjamin
+    - M. Palu
+    - G. Dehaene-Lambertz
+  venue: "Scientific Reports"
+  logo: Log_SciRep.jpg
+  pdf: pages/publications/pdf/Flo_et_al_SciRep2022.pdf
+
+- phase: phd
+  year: 2021
+  title: "Remarks on the analysis of steady-state responses: Spurious artifacts introduced by overlapping epochs"
+  authors:
+    - L. Benjamin
+    - G. Dehaene-Lambertz
+    - A. Fló
+  venue: "Cortex"
+  logo: Log_Cortex.jpeg
+  pdf: pages/publications/pdf/Benjamin_et_al_Cortex2021.pdf
+
+# ---------- BEFORE PHD ----------
+- phase: prephd
+  year: 2025
+  title: "The auditory environment drives Superior Temporal Sulcus depth in the neonatal period"
+  authors:
+    - L. Benjamin
+    - M. Bacquet
+    - F. Leroy
+    - C. Mancuso
+    - L. Lordier
+    - J. Sa de Almeida
+    - L. Gui
+    - R. Lean
+    - C. Rogers
+    - T. Inder
+    - C. D. Smyser
+    - P. S. Hüppi
+    - G. Dehaene-Lambertz
+  venue: "Brain Structure and Function"
+  logo: logo_BSAF.jpg
+  pdf: pages/publications/pdf/Benjamin_et_al_BSF2025.pdf
+
+- phase: prephd
+  year: 2025
+  title: "Functional connectivity of the superior temporal sulcus at term-equivalent age: effects of gestational age and sex"
+  authors:
+    - C. Mancuso
+    - M. Bacquet
+    - L. Benjamin
+    - F. Leroy
+    - G. Dehaene-Lambertz
+  venue: "Brain Structure and Function"
+  logo: logo_BSAF.jpg
+  pdf: pages/publications/pdf/Mancuso_et_al_BSF2025.pdf
+
+- phase: prephd
+  year: 2024
+  title: "Spectrotemporal cues and attention jointly modulate fMRI network topology for sentence and melody perception"
+  authors:
+    - F. Haiduk
+    - R. J. Zatorre
+    - L. Benjamin
+    - B. Morillon
+    - P. Albouy
+  venue: "Scientific Reports"
+  logo: Log_SciRep.jpg
+  pdf: pages/publications/pdf/Haiduk_et_al_SciRep2024.pdf
+
+- phase: prephd
+  year: 2020
+  title: "Distinct sensitivity to spectrotemporal modulation supports brain asymmetry for speech and melody"
+  authors:
+    - P. Albouy
+    - L. Benjamin
+    - B. Morillon
+    - R. J. Zatorre
+  venue: "Science"
+  logo: Log_Science.jpg
+  pdf: pages/publications/pdf/albouy_et_al_science_2020.pdf
+  featured: true
+
+- phase: prephd
+  year: 2019
+  title: "Rapid ocular responses are modulated by bottom-up-driven auditory salience"
+  authors:
+    - S. Zhao
+    - N. W. Yum
+    - L. Benjamin
+    - E. Benhamou
+    - M. Yoneya
+    - S. Furukawa
+    - F. Dick
+    - M. Slaney
+    - M. Chait
+  venue: "The Journal of Neuroscience"
+  logo: Log_JNeuro.png
+  pdf: pages/publications/pdf/Zhao_et_al_JNeuro.pdf

@@ -1,0 +1,48 @@
+title: Lucas Benjamin
+tagline: Postdoctoral Researcher · Computational Cognitive Neuroscience
+description: >-
+  Lucas Benjamin — postdoctoral researcher in computational cognitive
+  neuroscience at Aix-Marseille University (INS) and ENS-PSL (LNC2).
+  Studying how the brain integrates and compresses information over time
+  using EEG, MEG, intracranial recordings and computational models.
+author: Lucas Benjamin
+email: lucas.benjamin@univ-amu.fr
+printed_email: lucas.benjamin(AT)univ-amu.fr
+
+baseurl: ""
+url: "https://lucaswbenjamin.github.io"
+
+picture: pic.jpeg
+
+orcid: "0000-0002-2021-3076"
+scholar: "https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=en"
+bluesky: "https://bsky.app/profile/lucaswbenjamin.bsky.social"
+
+nav:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Talks
+    url: /talks/
+  - title: Teaching
+    url: /teaching/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - CV_LB.pdf
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+permalink: /:title/
