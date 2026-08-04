@@ -5,23 +5,33 @@
   venue: "Aix-Marseille University, France & Laval University, Canada"
 
 - year: 2026
-  role: Poster
-  title: "SBDM"
+  role: Speaker
+  title: "Cutting Garden EEG"
   venue: "Paris, France"
 
 - year: 2026
   role: Poster
-  title: "ABIM"
+  title: "Forum FENS"
+  venue: "Barcelona, Spain"
+
+- year: 2026
+  role: Poster
+  title: "Symposium on Biology of Decision Making (SBDM)"
+  venue: "Paris, France"
+
+- year: 2026
+  role: Poster
+  title: "Alpine Brain Imaging Meeting (ABIM)"
   venue: "Geneva University, Switzerland"
 
 - year: 2025
   role: Poster
-  title: "Reinforcement Learning and Decision Making"
+  title: "Reinforcement Learning and Decision Making (RLDM)"
   venue: "Trinity College Dublin, Ireland"
 
 - year: 2025
   role: Poster
-  title: "Cognitive Computational Neuroscience"
+  title: "Cognitive Computational Neuroscience (CCN)"
   venue: "Amsterdam, Netherlands"
 
 - year: 2024
@@ -31,7 +41,7 @@
 
 - year: 2024
   role: Poster
-  title: "Cognitive Computational Neuroscience"
+  title: "Cognitive Computational Neuroscience (CCN)"
   venue: "MIT, USA"
 
 - year: 2024
@@ -41,7 +51,7 @@
 
 - year: 2023
   role: Poster
-  title: "Society for the Neurobiology of Language"
+  title: "Society for the Neurobiology of Language (SNL)"
   venue: "Aix-Marseille University, France"
 
 - year: 2022
