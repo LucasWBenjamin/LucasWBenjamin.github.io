@@ -18,15 +18,16 @@
 
 - phase: postdoc
   year: 2026
-  title: "A proposal for unifying statistical learning at different scales: Long-Horizon Associative Learning"
+  title: "Long-horizon associative learning as a unifying framework for statistical learning across scales"
   authors:
     - L. Benjamin
     - A. Fló
     - F. Al Roumi
     - G. Dehaene-Lambertz
-  venue: "bioRxiv"
-  tag: preprint
-  link: "https://www.biorxiv.org/content/10.1101/2025.03.12.642610v3"
+  venue: "PNAS"
+  logo: logo_PNAS.png
+  pdf: pages/publications/pdf/Benjamin_et_al_PNAS_LHA_2026.pdf
+  featured: true
 
 # ---------- PHD ----------
 - phase: phd
