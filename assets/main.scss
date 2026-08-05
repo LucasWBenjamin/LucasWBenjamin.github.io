@@ -476,13 +476,15 @@ code {
   overflow: hidden;
 }
 
-.featured-card > *:not(.featured-card__cover-link) {
+.featured-card > *:not(.featured-card__cover-link):not(.featured-card__journal) {
   position: relative;
   z-index: 2;
   pointer-events: none;
 }
 
 .featured-card__journal {
+  position: relative;
+  z-index: 2;
   pointer-events: auto;
   align-self: flex-end;
   margin-top: .5rem;
