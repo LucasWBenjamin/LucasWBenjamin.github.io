@@ -19,8 +19,9 @@ permalink: /publications/
   <div class="featured-grid">
     {% for p in featured %}
     {% assign href = "" %}
-    {% if p.pdf %}{% assign href = p.pdf | relative_url %}{% elsif p.link %}{% assign href = p.link %}{% endif %}
-    <a class="featured-card" href="{{ href }}" target="_blank" rel="noopener" aria-label="{{ p.title }}, {{ p.venue }} {{ p.year }}">
+    {% if p.pdf %}{% assign href = p.pdf | relative_url %}{% elsif p.doi %}{% assign href = 'https://doi.org/' | append: p.doi %}{% elsif p.link %}{% assign href = p.link %}{% endif %}
+    <div class="featured-card">
+      <a class="featured-card__cover-link" href="{{ href }}" target="_blank" rel="noopener" aria-label="{{ p.title }}, {{ p.venue }} {{ p.year }}"></a>
       <div class="featured-card__logo">
         {% if p.logo %}
           <img src="{{ '/pages/publications/logo/' | append: p.logo | relative_url }}" alt="{{ p.venue }} logo" loading="lazy">
@@ -36,7 +37,10 @@ permalink: /publications/
         <span>{{ p.year }}</span>
       </div>
       <div class="featured-card__title">{{ p.title | truncate: 110 }}</div>
-    </a>
+      {% if p.pdf and p.doi %}
+      <a class="featured-card__journal" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">Journal ↗</a>
+      {% endif %}
+    </div>
     {% endfor %}
   </div>
 </section>
