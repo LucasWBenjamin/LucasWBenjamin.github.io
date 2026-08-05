@@ -603,6 +603,30 @@ code {
   vertical-align: middle;
 }
 
+.pub-links {
+  display: inline-flex;
+  gap: .4rem;
+  margin-left: .6rem;
+  vertical-align: middle;
+}
+.pub-link {
+  display: inline-block;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  padding: .12em .55em;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  text-decoration: none;
+  transition: border-color .12s ease, color .12s ease, background .12s ease;
+}
+.pub-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--code-bg);
+}
+
 @media (max-width: 540px) {
   .pub-item {
     grid-template-columns: 50px 1fr;

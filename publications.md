@@ -55,21 +55,17 @@ permalink: /publications/
       {% endif %}
     </div>
     <div class="pub-content">
-      <div class="pub-title">
-        {% if p.pdf %}
-          <a href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">{{ p.title }}</a>
-        {% elsif p.link %}
-          <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
-        {% else %}
-          {{ p.title }}
-        {% endif %}
-      </div>
+      <div class="pub-title">{{ p.title }}</div>
       <div class="pub-authors">
         {% for a in p.authors %}{% if a contains "Benjamin" %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
       </div>
       <div class="pub-meta">
         <span class="pub-venue">{{ p.venue }}</span>, <span class="pub-year">{{ p.year }}</span>
         {% if p.tag %}<span class="pub-tag">{{ p.tag }}</span>{% endif %}
+        <span class="pub-links">
+          {% if p.pdf %}<a href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener" class="pub-link">PDF</a>{% endif %}
+          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% elsif p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% endif %}
+        </span>
       </div>
     </div>
   </li>

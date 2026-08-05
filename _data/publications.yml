@@ -1,7 +1,7 @@
 # Phases (kept for potential future grouping; not currently used by the page,
 # which sorts globally by year). Logos under /pages/publications/logo/,
 # PDFs under /pages/publications/pdf/.
-# Use `link:` for external URL when no local PDF.
+# `doi:` links to the journal page via https://doi.org.
 
 # ---------- POSTDOC ----------
 - phase: postdoc
@@ -14,6 +14,7 @@
   venue: "PNAS"
   logo: logo_PNAS.png
   pdf: pages/publications/pdf/Benjamin_et_al_PNAS2026.pdf
+  doi: 10.1073/pnas.2524629123
   featured: true
 
 - phase: postdoc
@@ -27,6 +28,7 @@
   venue: "PNAS"
   logo: logo_PNAS.png
   pdf: pages/publications/pdf/Benjamin_et_al_PNAS_LHA_2026.pdf
+  doi: 10.1073/pnas.2513423123
   featured: true
 
 # ---------- PHD ----------
@@ -45,6 +47,7 @@
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Sable-Meyer_et_al_eLife2026.pdf
+  doi: 10.7554/eLife.106464
 
 - phase: phd
   year: 2025
@@ -58,6 +61,7 @@
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Godel_et_al_eLife2025.pdf
+  doi: 10.7554/eLife.109901
 
 - phase: phd
   year: 2025
@@ -70,6 +74,7 @@
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Flo_et_al_eLife2025.pdf
+  doi: 10.7554/eLife.101802
 
 - phase: phd
   year: 2025
@@ -86,6 +91,7 @@
   venue: "iScience"
   logo: logo_iscience.png
   pdf: pages/publications/pdf/Benjamin_et_al_iScience2024.pdf
+  doi: 10.1016/j.isci.2024.111591
 
 - phase: phd
   year: 2024
@@ -99,6 +105,7 @@
   venue: "The Journal of Neuroscience"
   logo: Log_JNeuro.png
   pdf: pages/publications/pdf/e1369232024.full.pdf
+  doi: 10.1523/JNEUROSCI.1369-23.2024
   featured: true
 
 - phase: phd
@@ -112,6 +119,7 @@
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Benjamin_et_al_eLife2023.pdf
+  doi: 10.7554/eLife.86430
   featured: true
 
 - phase: phd
@@ -127,6 +135,7 @@
   venue: "Developmental Science"
   logo: Log_DevSci.jpg
   pdf: pages/publications/pdf/Benjamin-2022-DevelopmentalScience.pdf
+  doi: 10.1111/desc.13300
   featured: true
 
 - phase: phd
@@ -140,6 +149,7 @@
   venue: "Developmental Cognitive Neuroscience"
   logo: Log_DevCogNeur.jpeg
   pdf: pages/publications/pdf/APICE.pdf
+  doi: 10.1016/j.dcn.2022.101077
 
 - phase: phd
   year: 2022
@@ -152,6 +162,7 @@
   venue: "Scientific Reports"
   logo: Log_SciRep.jpg
   pdf: pages/publications/pdf/Flo_et_al_SciRep2022.pdf
+  doi: 10.1038/s41598-022-08411-w
 
 - phase: phd
   year: 2021
@@ -163,6 +174,7 @@
   venue: "Cortex"
   logo: Log_Cortex.jpeg
   pdf: pages/publications/pdf/Benjamin_et_al_Cortex2021.pdf
+  doi: 10.1016/j.cortex.2021.05.023
 
 # ---------- BEFORE PHD ----------
 - phase: prephd
@@ -185,6 +197,7 @@
   venue: "Brain Structure and Function"
   logo: logo_BSAF.jpg
   pdf: pages/publications/pdf/Benjamin_et_al_BSF2025.pdf
+  doi: 10.1007/s00429-025-03034-z
 
 - phase: prephd
   year: 2025
@@ -198,6 +211,7 @@
   venue: "Brain Structure and Function"
   logo: logo_BSAF.jpg
   pdf: pages/publications/pdf/Mancuso_et_al_BSF2025.pdf
+  doi: 10.1007/s00429-025-02979-5
 
 - phase: prephd
   year: 2024
@@ -211,6 +225,7 @@
   venue: "Scientific Reports"
   logo: Log_SciRep.jpg
   pdf: pages/publications/pdf/Haiduk_et_al_SciRep2024.pdf
+  doi: 10.1038/s41598-024-56139-6
 
 - phase: prephd
   year: 2020
@@ -223,6 +238,7 @@
   venue: "Science"
   logo: Log_Science.jpg
   pdf: pages/publications/pdf/albouy_et_al_science_2020.pdf
+  doi: 10.1126/science.aaz3468
   featured: true
 
 - phase: prephd
@@ -241,3 +257,4 @@
   venue: "The Journal of Neuroscience"
   logo: Log_JNeuro.png
   pdf: pages/publications/pdf/Zhao_et_al_JNeuro.pdf
+  doi: 10.1523/JNEUROSCI.0776-19.2019
