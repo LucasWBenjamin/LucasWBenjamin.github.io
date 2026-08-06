@@ -19,7 +19,7 @@ permalink: /publications/
   <div class="featured-grid">
     {% for p in featured %}
     {% assign href = "" %}
-    {% if p.pdf %}{% assign href = p.pdf | relative_url %}{% elsif p.doi %}{% assign href = 'https://doi.org/' | append: p.doi %}{% elsif p.link %}{% assign href = p.link %}{% endif %}
+    {% if p.pdf %}{% assign href = p.pdf | relative_url %}{% elsif p.link %}{% assign href = p.link %}{% elsif p.doi %}{% assign href = 'https://doi.org/' | append: p.doi %}{% endif %}
     <div class="featured-card">
       <a class="featured-card__cover-link" href="{{ href }}" target="_blank" rel="noopener" aria-label="{{ p.title }}, {{ p.venue }} {{ p.year }}"></a>
       <div class="featured-card__logo">
@@ -37,7 +37,9 @@ permalink: /publications/
         <span>{{ p.year }}</span>
       </div>
       <div class="featured-card__title">{{ p.title | truncate: 110 }}</div>
-      {% if p.pdf and p.doi %}
+      {% if p.pdf and p.link %}
+      <a class="featured-card__journal" href="{{ p.link }}" target="_blank" rel="noopener">Journal ↗</a>
+      {% elsif p.pdf and p.doi %}
       <a class="featured-card__journal" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">Journal ↗</a>
       {% endif %}
     </div>
@@ -68,7 +70,7 @@ permalink: /publications/
         {% if p.tag %}<span class="pub-tag">{{ p.tag }}</span>{% endif %}
         <span class="pub-links">
           {% if p.pdf %}<a href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener" class="pub-link">PDF</a>{% endif %}
-          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% elsif p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% endif %}
+          {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% elsif p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" class="pub-link">Journal ↗</a>{% endif %}
         </span>
       </div>
     </div>
