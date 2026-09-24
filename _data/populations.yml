@@ -1,0 +1,10 @@
+# Second filter facet on /publications/. `key` must match the values used in
+# `populations:` inside _data/publications.yml.
+- key: adults
+  label: Adults
+- key: babies
+  label: Babies
+- key: kids
+  label: Kids
+- key: patients
+  label: Patients

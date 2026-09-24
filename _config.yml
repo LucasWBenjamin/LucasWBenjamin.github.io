@@ -1,10 +1,10 @@
 title: Lucas Benjamin
 tagline: Postdoctoral Researcher · Computational Cognitive Neuroscience
 description: >-
-  Lucas Benjamin — postdoctoral researcher in computational cognitive
+  Lucas Benjamin, postdoctoral researcher in computational cognitive
   neuroscience at Aix-Marseille University (INS) and ENS-PSL (LNC2).
-  Studying how the brain integrates and compresses information over time
-  using EEG, MEG, intracranial recordings and computational models.
+  Studying how the human brain learns from its environment, from birth to
+  adulthood, using EEG, MEG, intracranial recordings and computational models.
 author: Lucas Benjamin
 email: lucas.benjamin@univ-amu.fr
 printed_email: lucas.benjamin(AT)univ-amu.fr
@@ -17,6 +17,28 @@ picture: pic.jpeg
 orcid: "0000-0002-9578-6039"
 scholar: "https://scholar.google.fr/citations?user=cOj0n3oAAAAJ&hl=en"
 bluesky: "https://bsky.app/profile/lucaswbenjamin.bsky.social"
+
+# ---- Homepage hero -------------------------------------------------------
+# `statement` is rendered as the large display headline. The <em> spans are
+# coloured automatically (alternating cool / warm accent).
+hero:
+  eyebrow: "Developmental Computational Cognitive Neuroscience"
+  statement: >-
+    How the human brain learns from its environment:
+    from <em>birth</em> to <em>adulthood</em>
+  lede: >-
+    From auditory sequences in sleeping newborns to perceptual decisions in
+    adults, measured with EEG, MEG and intracranial recordings, explained
+    with Bayesian and neural-network models.
+
+# Affiliations shown as a wordmark strip under the hero.
+affiliations:
+  - name: "Institut de Neurosciences des Systèmes"
+    short: "INS"
+    url: "https://ins-amu.fr/"
+  - name: "Laboratoire de Neurosciences Cognitives et Computationnelles"
+    short: "LNC²"
+    url: "https://www.lnc2.fr/"
 
 nav:
   - title: About

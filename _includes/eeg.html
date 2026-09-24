@@ -1,0 +1,18 @@
+{%- comment -%}
+  Decorative multi-channel "EEG montage" backdrop.
+
+  include.variant  "band"  – dense, saturated, for the homepage hero
+                   "paper" – sparse and faint, sitewide backdrop
+  include.class    extra class names on the wrapper
+
+  One group only: the baby/newborn easter egg rewrites the `d` of these same
+  paths rather than layering a second montage on top.
+{%- endcomment -%}
+<div class="eeg eeg--{{ include.variant | default: 'paper' }} {{ include.class }}"
+     aria-hidden="true"
+     data-eeg
+     data-eeg-variant="{{ include.variant | default: 'paper' }}">
+  <svg class="eeg__svg" preserveAspectRatio="none" focusable="false">
+    <g class="eeg__drift"></g>
+  </svg>
+</div>

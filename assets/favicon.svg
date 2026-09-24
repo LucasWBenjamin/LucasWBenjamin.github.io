@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#1d4e89"/>
-  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Georgia, 'Source Serif 4', serif" font-size="32" font-weight="600" fill="#fafaf9">LB</text>
+  <rect width="64" height="64" rx="13" fill="#0e6b8c"/>
+  <path d="M6 34c4.6 0 4.8-13 8.4-13s4.2 21 8 21 4.4-27 8.2-27S35 44 38.8 44 43 26 46.8 26c2.6 0 3.6 8 6.2 8"
+        fill="none" stroke="#fbfaf8" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

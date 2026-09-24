@@ -1,8 +1,31 @@
 <footer class="site-footer">
-  <div class="wrapper site-footer__inner">
-    <p class="footer-meta">
-      &copy; {{ "now" | date: "%Y" }} {{ site.title | escape }}
+  <div class="wrapper wrapper--wide">
+
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <p class="site-footer__name">{{ site.title | escape }}</p>
+        <p class="site-footer__role">{{ site.tagline }}</p>
+        {%- include social.html -%}
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Footer">
+        <p class="eyebrow">Pages</p>
+        {%- for item in site.nav -%}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {%- endfor -%}
+      </nav>
+
+      <div class="site-footer__affil">
+        <p class="eyebrow">Affiliations</p>
+        {%- for a in site.affiliations -%}
+          <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+
+    <p class="site-footer__meta">
+      <span>&copy; {{ "now" | date: "%Y" }} {{ site.title | escape }}</span>
     </p>
-    {%- include social.html -%}
+
   </div>
 </footer>

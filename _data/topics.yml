@@ -1,0 +1,10 @@
+# Filter facets on /publications/. `key` must match the values used in
+# `topics:` inside _data/publications.yml.
+- key: sequences
+  label: Sequence learning
+- key: decision
+  label: Perception & decision
+- key: development
+  label: Development
+- key: methods
+  label: Methods

@@ -1,38 +1,121 @@
 ---
 layout: default
 ---
+
+{%- assign strands = site.data.research -%}
+
 <section class="hero">
-  <div class="hero__photo">
-    <img src="{{ site.picture | relative_url }}" alt="Portrait of {{ site.title }}" loading="eager">
-  </div>
-  <div class="hero__intro">
+  {%- include eeg.html variant="band" class="eeg--band" -%}
+
+  <div class="wrapper wrapper--wide hero__inner">
+
+    <img class="hero__photo" src="{{ site.picture | relative_url }}"
+         alt="Portrait of {{ site.title }}" width="108" height="108" loading="eager">
+
+    <p class="eyebrow">{{ site.hero.eyebrow }}</p>
     <h1 class="hero__name">{{ site.title }}</h1>
-    <p class="hero__role">{{ site.tagline }}</p>
-    <div class="hero__bio">
-      {{ content }}
+    <p class="hero__statement">{{ site.hero.statement }}</p>
+    <p class="hero__lede">{{ site.hero.lede }}</p>
+
+    {%- include social.html style="chips" -%}
+
+    {%- if site.data.news and site.data.news.size > 0 -%}
+    <div class="hero__news">
+      {%- for item in site.data.news limit: 2 -%}
+      <a class="hero-card" href="{{ item.url | default: '/publications/' | relative_url }}">
+        <span class="hero-card__tag">{{ item.tag | default: item.date }}</span>
+        <span class="hero-card__text">{{ item.text }}</span>
+        <span class="hero-card__more">Read more →</span>
+      </a>
+      {%- endfor -%}
     </div>
-    {%- include social.html -%}
+    {%- endif -%}
+
+    <ul class="affil-strip">
+      {%- for a in site.affiliations -%}
+      <li><a href="{{ a.url }}" target="_blank" rel="noopener" title="{{ a.name }}">{{ a.short }}</a></li>
+      {%- endfor -%}
+    </ul>
+
+    <a class="hero__cue" href="#about" aria-label="Skip to the introduction">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+           stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 5v13M6 13l6 6 6-6"/>
+      </svg>
+    </a>
+
   </div>
 </section>
 
-{%- if site.data.news and site.data.news.size > 0 -%}
-<section class="news">
-  <h2 class="section-heading">News</h2>
-  <ul class="news-list">
-    {%- for item in site.data.news -%}
-    <li>
-      <span class="news-date">{{ item.date }}</span>
-      <span class="news-text">{{ item.text }}</span>
-    </li>
-    {%- endfor -%}
-  </ul>
+<section class="home-section" id="about">
+  <div class="wrapper wrapper--wide">
+    <h2 class="section-heading">About</h2>
+    <div class="about-grid">
+      <div class="about-prose" data-reveal>
+        {{ content }}
+      </div>
+
+      {%- if page.facts -%}
+      <aside class="facts" data-reveal style="--d:.08s">
+        <dl>
+          {%- for f in page.facts -%}
+          <dt>{{ f.label }}</dt>
+          <dd>{{ f.value }}<span>{{ f.note }}</span></dd>
+          {%- endfor -%}
+        </dl>
+      </aside>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{%- if strands and strands.size > 0 -%}
+<section class="home-section">
+  <div class="wrapper wrapper--wide">
+    <h2 class="section-heading">Research <span class="count">Three strands</span></h2>
+    <div class="strand-cards">
+      {%- for s in strands -%}
+      <a class="strand-card" href="{{ '/research/' | relative_url }}#{{ s.id }}"
+         data-reveal style="--d:{{ forloop.index0 | times: 80 }}ms">
+        <span class="strand-card__fig">
+          <img src="{{ s.figure | relative_url }}" alt="" loading="lazy">
+        </span>
+        <span class="strand-card__body">
+          <span class="strand-card__n">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="strand-card__title">{{ s.title }}</span>
+          <span class="strand-card__short">{{ s.short }}</span>
+          <span class="strand-card__go">Read more →</span>
+        </span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
 </section>
 {%- endif -%}
 
-<section class="bluesky-pin" id="bluesky-pin-section" hidden>
-  <h2 class="section-heading">Pinned on Bluesky</h2>
-  <div id="bluesky-pin-container" class="bluesky-pin__embed"></div>
+{%- if site.data.news and site.data.news.size > 0 -%}
+<section class="home-section">
+  <div class="wrapper wrapper--wide">
+    <h2 class="section-heading">News</h2>
+    <ul class="news-list">
+      {%- for item in site.data.news -%}
+      <li data-reveal style="--d:{{ forloop.index0 | times: 60 }}ms">
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-text">{{ item.text }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </section>
+{%- endif -%}
+
+<section class="home-section bluesky-pin" id="bluesky-pin-section" hidden>
+  <div class="wrapper wrapper--wide">
+    <h2 class="section-heading">Pinned on Bluesky</h2>
+    <div id="bluesky-pin-container" class="bluesky-pin__embed"></div>
+  </div>
+</section>
+
 <script>
 (function(){
   var handle = 'lucaswbenjamin.bsky.social';

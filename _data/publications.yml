@@ -11,6 +11,8 @@
     - L. Benjamin
     - B. Morillon*
     - V. Wyart*
+  topics: [decision]
+  populations: [adults]
   venue: "PNAS"
   logo: logo_PNAS.png
   pdf: pages/publications/pdf/Benjamin_et_al_PNAS2026.pdf
@@ -25,6 +27,8 @@
     - A. Fló
     - F. Al Roumi
     - G. Dehaene-Lambertz
+  topics: [sequences]
+  populations: [adults, babies, patients]
   venue: "PNAS"
   logo: logo_PNAS.png
   pdf: pages/publications/pdf/Benjamin_et_al_PNAS_LHA_2026.pdf
@@ -44,6 +48,8 @@
     - T. Morfoisse
     - F. Al Roumi
     - S. Dehaene
+  topics: [decision]
+  populations: [adults, kids]
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Sable-Meyer_et_al_eLife2026.pdf
@@ -58,6 +64,8 @@
     - L. Benjamin
     - G. Dehaene-Lambertz
     - M. Schaer
+  topics: [sequences, development]
+  populations: [babies, patients]
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Godel_et_al_eLife2026.pdf
@@ -71,6 +79,8 @@
     - L. Benjamin
     - M. Palu
     - G. Dehaene-Lambertz
+  topics: [sequences, development]
+  populations: [babies]
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Flo_et_al_eLife2025.pdf
@@ -88,6 +98,8 @@
     - X. Wu
     - P. Gui
     - G. Dehaene-Lambertz
+  topics: [sequences]
+  populations: [patients, adults]
   venue: "iScience"
   logo: logo_iscience.png
   pdf: pages/publications/pdf/Benjamin_et_al_iScience2024.pdf
@@ -102,6 +114,8 @@
     - A. Fló
     - G. Dehaene-Lambertz*
     - F. Al Roumi*
+  topics: [sequences]
+  populations: [adults]
   venue: "The Journal of Neuroscience"
   logo: Log_JNeuro.png
   pdf: pages/publications/pdf/e1369232024.full.pdf
@@ -116,6 +130,8 @@
     - A. Fló
     - F. Al Roumi
     - G. Dehaene-Lambertz
+  topics: [sequences]
+  populations: [adults]
   venue: "eLife"
   logo: Log_elife.png
   pdf: pages/publications/pdf/Benjamin_et_al_eLife2023.pdf
@@ -132,6 +148,8 @@
     - S. Naik
     - L. Melloni
     - G. Dehaene-Lambertz
+  topics: [sequences, development]
+  populations: [adults, babies]
   venue: "Developmental Science"
   logo: Log_DevSci.jpg
   pdf: pages/publications/pdf/Benjamin-2022-DevelopmentalScience.pdf
@@ -146,6 +164,8 @@
     - G. Gennari
     - L. Benjamin
     - G. Dehaene-Lambertz
+  topics: [methods, development]
+  populations: [babies]
   venue: "Developmental Cognitive Neuroscience"
   logo: Log_DevCogNeur.jpeg
   pdf: pages/publications/pdf/APICE.pdf
@@ -159,6 +179,8 @@
     - L. Benjamin
     - M. Palu
     - G. Dehaene-Lambertz
+  topics: [sequences, development]
+  populations: [babies]
   venue: "Scientific Reports"
   logo: Log_SciRep.jpg
   pdf: pages/publications/pdf/Flo_et_al_SciRep2022.pdf
@@ -171,6 +193,8 @@
     - L. Benjamin
     - G. Dehaene-Lambertz
     - A. Fló
+  topics: [methods]
+  populations: [babies]
   venue: "Cortex"
   logo: Log_Cortex.jpeg
   pdf: pages/publications/pdf/Benjamin_et_al_Cortex2021.pdf
@@ -194,6 +218,8 @@
     - C. D. Smyser
     - P. S. Hüppi
     - G. Dehaene-Lambertz
+  topics: [development]
+  populations: [babies, patients]
   venue: "Brain Structure and Function"
   logo: logo_BSAF.jpg
   pdf: pages/publications/pdf/Benjamin_et_al_BSF2025.pdf
@@ -208,6 +234,8 @@
     - L. Benjamin
     - F. Leroy
     - G. Dehaene-Lambertz
+  topics: [development]
+  populations: [babies, patients]
   venue: "Brain Structure and Function"
   logo: logo_BSAF.jpg
   pdf: pages/publications/pdf/Mancuso_et_al_BSF2025.pdf
@@ -222,6 +250,8 @@
     - L. Benjamin
     - B. Morillon
     - P. Albouy
+  topics: [decision]
+  populations: [adults]
   venue: "Scientific Reports"
   logo: Log_SciRep.jpg
   pdf: pages/publications/pdf/Haiduk_et_al_SciRep2024.pdf
@@ -235,6 +265,8 @@
     - L. Benjamin
     - B. Morillon
     - R. J. Zatorre
+  topics: [decision]
+  populations: [adults]
   venue: "Science"
   logo: Log_Science.jpg
   pdf: pages/publications/pdf/albouy_et_al_science_2020.pdf
@@ -254,6 +286,8 @@
     - F. Dick
     - M. Slaney
     - M. Chait
+  topics: [decision]
+  populations: [adults]
   venue: "The Journal of Neuroscience"
   logo: Log_JNeuro.png
   pdf: pages/publications/pdf/Zhao_et_al_JNeuro.pdf

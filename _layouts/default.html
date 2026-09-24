@@ -1,95 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body>
-    <div class="bg-eeg" aria-hidden="true">
-      <svg id="eeg-bg" preserveAspectRatio="none"></svg>
-    </div>
+  <body class="layout-{{ page.layout | default: 'default' }}">
+
+    {%- include eeg.html variant="paper" class="eeg--fixed" -%}
+
     {%- include header.html -%}
-    <main class="page" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+
+    <main class="page" id="content" aria-label="Content">
+      {{ content }}
     </main>
+
     {%- include footer.html -%}
-    <script>
-    (function() {
-      var ns = 'http://www.w3.org/2000/svg';
-      var svg = document.getElementById('eeg-bg');
-      if (!svg) return;
 
-      var colors = ['#3a6ea5', '#c0654c', '#3d8b7a', '#c8943a', '#7d5491', '#5b8c5a', '#a04060'];
-
-      function gauss() {
-        var u = 0, v = 0;
-        while (u === 0) u = Math.random();
-        while (v === 0) v = Math.random();
-        return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
-      }
-
-      function generate() {
-        var w = window.innerWidth;
-        var h = window.innerHeight;
-        svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
-        while (svg.firstChild) svg.removeChild(svg.firstChild);
-
-        var spacing = 34;
-        var numTraces = Math.ceil(h / spacing) + 1;
-        var offset = (h - (numTraces - 1) * spacing) / 2;
-
-        for (var i = 0; i < numTraces; i++) {
-          var y0 = offset + i * spacing;
-          var color = colors[i % colors.length];
-
-          // Per-trace oscillation params
-          var amp = 4 + Math.random() * 4;
-          var f1 = 0.004 + Math.random() * 0.006;
-          var f2 = 0.02 + Math.random() * 0.03;
-          var f3 = 0.06 + Math.random() * 0.08;
-          var p1 = Math.random() * Math.PI * 2;
-          var p2 = Math.random() * Math.PI * 2;
-          var p3 = Math.random() * Math.PI * 2;
-
-          var pts = [];
-          var smooth = 0;
-          var step = 2;
-
-          for (var x = 0; x <= w; x += step) {
-            var wave = amp * (
-              Math.sin(x * f1 + p1) * 0.7 +
-              Math.sin(x * f2 + p2) * 0.4 +
-              Math.sin(x * f3 + p3) * 0.25
-            );
-            // Smoothed Gaussian noise (slow drift component)
-            smooth = smooth * 0.72 + gauss() * 1.1;
-            // High-frequency Gaussian noise (per-sample jitter)
-            var hfNoise = gauss() * 1.6;
-            // Sparse spikes (artifact / event-related)
-            var spike = 0;
-            if (Math.random() < 0.002) {
-              spike = (Math.random() < 0.5 ? -1 : 1) * (10 + Math.random() * 16);
-            }
-            var y = y0 + wave + smooth + hfNoise + spike;
-            pts.push((x === 0 ? 'M' : 'L') + x + ' ' + y.toFixed(1));
-          }
-
-          var path = document.createElementNS(ns, 'path');
-          path.setAttribute('d', pts.join(' '));
-          path.setAttribute('stroke', color);
-          path.setAttribute('stroke-width', '0.9');
-          path.setAttribute('fill', 'none');
-          path.setAttribute('vector-effect', 'non-scaling-stroke');
-          svg.appendChild(path);
-        }
-      }
-
-      generate();
-      var t;
-      window.addEventListener('resize', function() {
-        clearTimeout(t);
-        t = setTimeout(generate, 250);
-      });
-    })();
-    </script>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>

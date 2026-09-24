@@ -1,0 +1,78 @@
+# Research strands. Shared by the homepage teaser and /research/.
+# `body` is raw HTML: Liquid is NOT evaluated inside data files, so use
+# root-relative paths (the site is served from the domain root).
+
+- id: sequence-learning
+  title: "Statistical and network learning in sequences"
+  short: >-
+    How listeners, even sleeping newborns, extract transition probabilities
+    and the graph structure hidden in streams of sound.
+  figure: /assets/SL.png
+  alt: "EEG cap on a sleeping neonate beside a diagram of long-horizon associative strength between sequence elements"
+  caption: >-
+    Long-horizon associative learning: every element is bound to its whole
+    recent history with an exponentially decaying weight, here measured with
+    high-density EEG in sleeping neonates.
+  body: >-
+    <p>A central question of my PhD: how do humans extract the latent structure
+    of sound sequences? We have shown that sleeping neonates (two or three days
+    old) can learn transition probabilities between syllables and use that
+    information to segment a continuous speech stream
+    (<a class="ref" href="/pages/publications/pdf/Benjamin-2022-DevelopmentalScience.pdf">Benjamin et al., <em>Dev. Sci.</em>, 2023</a>;
+    <a class="ref" href="/pages/publications/pdf/Flo_et_al_SciRep2022.pdf">Fló et al., <em>Sci. Rep.</em>, 2022</a>).</p>
+
+    <p>Beyond local transition probabilities, we found that people
+    <strong>prune and complete the underlying network structure</strong> of the
+    input (<a class="ref" href="/pages/publications/pdf/Benjamin_et_al_eLife2023.pdf">Benjamin et al., <em>eLife</em>, 2023</a>),
+    and that <strong>long-horizon associative learning</strong> unifies local
+    transition-probability learning with high-order graph learning in a single
+    mechanism (<a class="ref" href="/pages/publications/pdf/e1369232024.full.pdf">Benjamin et al., <em>J. Neurosci.</em>, 2024</a>;
+    <a class="ref" href="/pages/publications/pdf/Benjamin_et_al_PNAS_LHA_2026.pdf">Benjamin et al., <em>PNAS</em>, 2026</a>).</p>
+
+    <p>With colleagues at Aix-Marseille University (J. Pesnot-Lerousseau and
+    B. Morillon) and in Quebec (P. Albouy), I am now using intracranial
+    recordings to resolve the fine-grained neural basis of this learning in
+    humans.</p>
+
+- id: decision-making
+  title: "Decision making and sensory integration"
+  short: >-
+    How temporal prediction, evidence accumulation and rule discovery interact
+    while the brain commits to a choice.
+  figure: /assets/DM.png
+  alt: "MEG decoding time courses for stimulus aspect, evidence and belief update, with their cortical source maps"
+  caption: >-
+    MEG decoding of three latent variables during perceptual decisions:
+    stimulus aspect, accumulated evidence and belief update, together with
+    their cortical sources.
+  body: >-
+    <p>In my postdoc with B. Morillon and V. Wyart, we asked how
+    <strong>temporal predictions, sensory integration and rule discovery</strong>
+    interact during perceptual decisions, and found them to be interdependent
+    rather than separable inference processes
+    (<a class="ref" href="/pages/publications/pdf/Benjamin_et_al_PNAS2026.pdf">Benjamin et al., <em>PNAS</em>, 2026</a>).</p>
+
+    <p>My current project (work in progress) combines MEG with computational
+    models that bridge Bayesian inference and recurrent neural networks, to
+    investigate the neural basis of <strong>flexible evidence accumulation</strong>
+    and the role abstraction plays in it.</p>
+
+- id: development
+  title: "Auditory cortex development and prematurity"
+  short: >-
+    How early auditory experience sculpts the superior temporal sulcus in the
+    newborn brain.
+  figure: /assets/STS.png
+  alt: "MRI scanner icon beside curves of right superior temporal sulcus depth as a function of birth term"
+  caption: >-
+    Depth of the right superior temporal sulcus at term-equivalent age: the
+    earlier the birth, the shallower the sulcus: an anatomical trace of early
+    auditory experience.
+  body: >-
+    <p>With G. Dehaene-Lambertz and the Geneva neonatal team, we used MRI to
+    study how early auditory experience shapes the <strong>structure of the
+    superior temporal sulcus</strong> in newborns
+    (<a class="ref" href="/pages/publications/pdf/Benjamin_et_al_BSF2025.pdf">Benjamin et al., <em>Brain Struct. Funct.</em>, 2025</a>),
+    and how gestational age and sex affect its functional connectivity at
+    term-equivalent age
+    (<a class="ref" href="/pages/publications/pdf/Mancuso_et_al_BSF2025.pdf">Mancuso et al., <em>Brain Struct. Funct.</em>, 2025</a>).</p>

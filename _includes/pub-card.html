@@ -1,0 +1,46 @@
+{%- comment -%}
+  Featured publication card.
+  include.p     – a record from _data/publications.yml
+  include.delay – reveal stagger index
+{%- endcomment -%}
+{%- assign p = include.p -%}
+{%- assign doi_url = p.doi | prepend: 'https://doi.org/' -%}
+{%- if p.pdf -%}
+  {%- assign href = p.pdf | relative_url -%}
+  {%- assign primary = 'PDF →' -%}
+{%- elsif p.link -%}
+  {%- assign href = p.link -%}
+  {%- assign primary = 'Journal →' -%}
+{%- else -%}
+  {%- assign href = doi_url -%}
+  {%- assign primary = 'Journal →' -%}
+{%- endif -%}
+{%- assign first_author = p.authors | first -%}
+{%- assign last_name = first_author | split: ' ' | last | replace: '*', '' -%}
+
+<article class="featured-card" data-reveal style="--d:{{ include.delay | default: 0 | times: 80 }}ms">
+  <a class="featured-card__cover-link" href="{{ href }}" target="_blank" rel="noopener">
+    {{ p.title }} ({{ p.venue }}, {{ p.year }})
+  </a>
+
+  <div class="featured-card__logo">
+    {%- if p.logo -%}
+      <img src="{{ '/pages/publications/logo/' | append: p.logo | relative_url }}"
+           alt="{{ p.venue }}" loading="lazy">
+    {%- else -%}
+      <span class="featured-card__venue">{{ p.venue }}</span>
+    {%- endif -%}
+  </div>
+
+  <p class="featured-card__meta">{{ last_name }}{% if p.authors.size > 1 %} et al.{% endif %} · {{ p.year }}</p>
+  <h3 class="featured-card__title">{{ p.title | truncate: 96 }}</h3>
+
+  <div class="featured-card__foot">
+    <span class="featured-card__read">{{ primary }}</span>
+    {%- if p.pdf and p.link -%}
+      <a class="featured-card__journal" href="{{ p.link }}" target="_blank" rel="noopener">Journal ↗</a>
+    {%- elsif p.pdf and p.doi -%}
+      <a class="featured-card__journal" href="{{ doi_url }}" target="_blank" rel="noopener">Journal ↗</a>
+    {%- endif -%}
+  </div>
+</article>

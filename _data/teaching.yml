@@ -1,44 +1,46 @@
 teaching:
   - year: "2024–2026"
-    title: "Teaching Assistant — Data mining and modeling for behavioral sciences and beyond"
-    detail: "École Normale Supérieure (ENS-PSL) — V. Wyart's class"
+    title: "Teaching Assistant: Data mining and modeling for behavioral sciences and beyond"
+    detail: "École Normale Supérieure (ENS-PSL), V. Wyart's class"
   - year: "2025–2027"
-    title: "Lecturer — Perceptual decision-making and parieto-frontal interactions"
-    detail: "École Normale Supérieure (ENS) — guest lecture in E. Koechlin's class"
+    title: "Lecturer: Perceptual decision-making and parieto-frontal interactions"
+    detail: "École Normale Supérieure (ENS), guest lecture in E. Koechlin's class"
   - year: "2022"
     title: "Teaching Assistant"
-    detail: "École Polytechnique — S. Dehaene's lecture"
+    detail: "École Polytechnique, S. Dehaene's lecture"
 
 supervision:
   - year: "2026"
     title: "S. Kwon"
-    detail: "RA — co-supervised with V. Wyart"
+    detail: "RA, co-supervised with V. Wyart"
   - year: "2026"
     title: "E. Husson"
-    detail: "M2 — co-supervised with V. Wyart"
+    detail: "M2, co-supervised with V. Wyart"
   - year: "2025"
     title: "M. Glushanina"
-    detail: "M2 — co-supervised with V. Wyart"
+    detail: "M2, co-supervised with V. Wyart"
   - year: "2022"
     title: "C. Mancuso"
-    detail: "M2 — co-supervised with G. Dehaene-Lambertz"
+    detail: "M2, co-supervised with G. Dehaene-Lambertz"
   - year: "2022"
     title: "C. Njoo Deplante"
-    detail: "M2 — co-supervised with G. Dehaene-Lambertz"
+    detail: "M2, co-supervised with G. Dehaene-Lambertz"
   - year: "2021"
     title: "M. Bacquet"
-    detail: "M2 — co-supervised with G. Dehaene-Lambertz"
+    detail: "M2, co-supervised with G. Dehaene-Lambertz"
 
 organization:
   - year: "2025"
     title: "Workshop on Cognitive Modelling (WoCoMo)"
-    detail: "Co-organiser, Carry-le-Rouet, France — ~30 invited researchers"
+    detail: "Co-organiser, Carry-le-Rouet, France (~30 invited researchers)"
 
 reviewing:
-  text: >-
+  journals: >-
     Nature Communications, The Journal of Neuroscience, Brain Structure and
     Function, NeuroImage, CCN, Brain and Language, Child Development,
     Translational Pediatrics.
+  grants:
+    - ERC Consolidator
 
 outreach:
   - year: "2024"
@@ -51,10 +53,13 @@ outreach:
 awards:
   - year: "2024"
     title: "3-year postdoctoral grant"
-    detail: "Fondation pour la Recherche Médicale (FRM) — €159k"
+    funder: "Fondation pour la Recherche Médicale (FRM)"
+    amount: "€159k"
   - year: "2021"
     title: "Young Researcher Prize"
-    detail: "Fondation Les Treilles — €6k"
+    funder: "Fondation Les Treilles"
+    amount: "€6k"
   - year: "2018"
     title: "Study Grant"
-    detail: "France-Québec youth organisation — €0.2k"
+    funder: "France-Québec youth organisation"
+    amount: "€0.2k"
