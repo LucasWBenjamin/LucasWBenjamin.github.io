@@ -10,9 +10,9 @@
   figure: /assets/SL.png
   alt: "EEG cap on a sleeping neonate beside a diagram of long-horizon associative strength between sequence elements"
   caption: >-
-    Long-horizon associative learning: every element is bound to its whole
-    recent history with an exponentially decaying weight, here measured with
-    high-density EEG in sleeping neonates.
+    Left: high-density EEG in sleeping neonates. Right: long-horizon
+    associative learning, where every element is bound to its whole recent
+    history through an exponentially decaying weight.
   body: >-
     <p>A central question of my PhD: how do humans extract the latent structure
     of sound sequences? We have shown that sleeping neonates (two or three days
